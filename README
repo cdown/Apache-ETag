@@ -1,0 +1,8 @@
+This is an Apache handler to generate/handle ETags for dynamic content.
+
+This project was called off before I tested the module, as our upstream CDN
+provider (CloudFlare) doesn't support propagating ETags when using gzip at the
+moment, so this is totally untested.
+
+If you actually use this/write test cases for it, please let me know, and I'll
+integrate them.
